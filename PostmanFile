@@ -1,0 +1,44 @@
+Postman - API testing tool
+We can do manual testing of API's using postman
+
+Workspace : area where we maintain files and saved.
+Create a new workspace
+Create a new collection : collection contains folders and requests
+
+Request-->API-->Response
+
+Get : Retrieve the resource from server
+Post : Create resource on database
+Put : Update existing resource on database
+Patch : Update partial details of resource
+Delete :  Delete existing resource from database
+
+Validations :
+1. Status code
+2. Time
+3. Size data
+4. Response Body (json/xml)
+5. Cookies
+6. Headers
+
+http status codes:
+3 levels of status codes
+200:OK
+201:Created
+202:Non-Authoritative Information
+204:No Content
+
+400:Bad Request
+401:Unauthorized
+403:Forbidden
+404:Not Found
+409:Conflict
+
+500:Internal Server Error
+501:Not Implemented
+502:Bad Gateway
+503:Service Unavailable
+504:Gateway Timeout
+599:Network Timeout
+
+
